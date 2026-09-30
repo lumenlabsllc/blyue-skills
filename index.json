@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "brand": "LUMEN",
+  "homepage": "https://github.com/lumenlabsllc/blyue-skills",
+  "skills": [
+    {
+      "name": "commit-message",
+      "description": "Write a conventional commit message from staged changes",
+      "triggers": ["commit", "commit message", "git commit"],
+      "author": "lumenlabsllc",
+      "version": "1.0.0",
+      "tags": ["git", "workflow"],
+      "path": "skills/commit-message/SKILL.md"
+    },
+    {
+      "name": "explain-error",
+      "description": "Debug a stack trace or error message",
+      "triggers": ["error", "traceback", "stack trace", "exception", "failing"],
+      "author": "lumenlabsllc",
+      "version": "1.0.0",
+      "tags": ["debugging"],
+      "path": "skills/explain-error/SKILL.md"
+    },
+    {
+      "name": "review-pr",
+      "description": "Review a GitHub PR diff and post structured feedback",
+      "triggers": ["review pr", "review this pr", "pr review", "code review"],
+      "author": "lumenlabsllc",
+      "version": "1.0.0",
+      "tags": ["git", "github", "review"],
+      "path": "skills/review-pr/SKILL.md"
+    },
+    {
+      "name": "write-tests",
+      "description": "Generate a test file for a given source file",
+      "triggers": ["write tests", "add tests", "generate tests", "test coverage"],
+      "author": "lumenlabsllc",
+      "version": "1.0.0",
+      "tags": ["testing", "quality"],
+      "path": "skills/write-tests/SKILL.md"
+    }
+  ]
+}
